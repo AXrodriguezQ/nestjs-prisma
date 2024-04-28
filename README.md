@@ -1,5 +1,6 @@
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
+  <a href="https://www.prisma.io/" target="blank"><img src="https://cdn.freelogovectors.net/wp-content/uploads/2022/01/prisma_logo-freelogovectors.net_.png" width="200" alt="Prisma Logo" /></a>
 </p>
 
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
@@ -25,6 +26,10 @@
 ## Description
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+
+## Prisma configuration
+
+To use the PRISMA ORM you must create a .env file in the root of the application and paste everything the same as the .env file.
 
 ## Installation
 
@@ -57,6 +62,42 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
+
+## Endpoints
+
+this is the list of access enpoints for the application
+
+- All tasks
+
+GET /
+
+  http://localhost:3000/tasks/
+
+- One task by id
+
+GET /
+
+  http://localhost:3000/tasks/:id
+
+- Create task
+
+POST /
+
+  http://localhost:3000/tasks/
+
+- Update task
+
+PUT /
+
+  http://localhost:3000/tasks/:id
+
+- Delete task
+
+DELETE /
+
+  http://localhost:3000/tasks/:id
+
+
 
 ## Support
 
